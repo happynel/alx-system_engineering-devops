@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep -V "bin" /etc/password
+egrep -1 -v "bin" /etc/password
